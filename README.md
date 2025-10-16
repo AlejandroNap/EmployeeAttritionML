@@ -22,30 +22,27 @@ The project consists of two main components:
     Allows users to input employee details and get a live prediction.
 
 
-Setup Instructions:
-1. Clone or download the project:
+Installation and Setup 
+
+Download the Project: 
+
 git clone https://github.com/AlejandroNap/EmployeeAttritionML.git 
-cd EmployeeAttritionML
+cd EmployeeAttritionML 
+ 
+Create a Virtual Environment: 
 
-2. Create and activate a virtual environment:
-python -m venv .venv
+py -m venv .venv 
 
+.\.venv\Scripts\activate 
 
-On Windows:
-.venv\Scripts\activate
+Install Dependencies: 
 
-On macOS/Linux:
-source .venv/bin/activate
+pip install -r requirements.txt 
+ 
+Run the Application: 
 
-3. Install dependencies
-pip install -r requirements.txt
-
-4. Run the Jupyter Notebook (optional, for training)
-jupyter notebook HR_Attrition_Analysis.ipynb
-
-5. Run the Streamlit web app
-streamlit run app.py
-
+streamlit run app.py 
+ 
 
 The Streamlit app will open in your default web browser at:
 http://localhost:8501
